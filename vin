@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+</head>
+<body>
+  <h1>Login</h1>
+  <form action="login_action.php">
+    <div class="container">
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+      <button type="submit" class="loginbtn">Login</button>
+    </div>
+
+    <div class="container signin">
+      <p>Don't have an account? <a href="#">Register</a>.</p>
+    </div>
+  </form>
+</body>
+</html>
